@@ -1,7 +1,8 @@
-<h2>{{ title }}</h2>
-<img [src]="imageUrl" >
-<p>{{ createdAt }}</p>
-<p>{{ description }}</p>
-<button (click)="showMessage()">Tape her </button> 
-<p *ngIf="message">{{ message }}</p>
-
+<div class="container">
+    <h2>{{ title }}</h2>
+    <img [src]="imageUrl" alt="Welcome Poster">
+    <p>{{ createdAt  }}</p>
+    <p>{{ description }}</p>
+    <button (click)="showMessage()">Click Me</button>
+    <p>{{ message }}</p>
+  </div>
