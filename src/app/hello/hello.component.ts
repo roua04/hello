@@ -16,14 +16,9 @@ export class HelloComponent implements OnInit {
     this.title = 'HELLO';
     this.description = 'New Project!! ';
     this.createdAt = new Date();
-  
-  export class HelloComponent {
-    message: string = '';
-  
-    showMessage(): void {
-      console.log('Button clicked!');
-      this.message = 'Welcome to our new project';
-    }
+  }
+  showMessage(): void {
+    this.message = 'Welcome to our new project';
   }
 }
 

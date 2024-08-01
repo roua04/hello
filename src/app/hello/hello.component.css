@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    background: linear-gradient(to right, #e0d6d3, #ece9e7); 
   }
   img {
     max-width: 40%;
@@ -25,7 +25,7 @@
   p {
     font-family: 'Arial', sans-serif;
     font-size: 1.2rem;
-    color: #ef61bb; 
+    color: #a9076e; 
     margin: 5px 0;
   }
   p.created-at {
